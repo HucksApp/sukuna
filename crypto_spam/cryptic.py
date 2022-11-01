@@ -1,5 +1,4 @@
 import json
-from inspect import _void
 import os,random,binascii,hashlib
 from pathlib import Path
 from typing import Optional
@@ -7,8 +6,7 @@ from typing import Optional
 from multiprocessing import Process,cpu_count
 
 from hdwallet import HDWallet
-from hdwallet.utils import generate_entropy
-from hdwallet.symbols import BTC ,ETH
+from hdwallet.symbols import BTC,ETH,DOGE,QTUM,SDC,XDC
 from moneywagon import get_address_balance
 #from moneywagon.services import BlockchainInfo, Toshi
 
@@ -146,7 +144,7 @@ class Wallet (Mnemonic):
 
     def __init__(self, word_strenght,coin_type='btc',passphrase=None) -> None:
         super().__init__(word_strenght)
-        wallet_dcoins:dict={"btc":BTC,"eth":ETH}
+        wallet_dcoins:dict={"btc":BTC,"eth":ETH,"doge":DOGE,"qtum":QTUM,"sdc":SDC,"xdc":XDC}
 
         self.dump:dict[str ,str]={}
         self.PASSPHRASE: Optional[str]= passphrase
@@ -197,22 +195,22 @@ class Wallet (Mnemonic):
 
 #FUNCTION TO START THE BRUTEFORCER 
 # USING ALL AVAILABLE CPU PROCESSOR
-def start_brute_force(iter:int,wallet_std:int)-> None:
+def start_brute_force(iter:int,wallet_std:int,coin_type:str)-> None:
     count:int=0
     result:int=0
     print(f"\n  ******BRUTEFORCING FOR {iter} POSSIBLE WALLETS**********  \n")
     
     for cpu in range(cpu_count()):
-        Process(target=__run, args=(iter,count, result,wallet_std)).start()
+        Process(target=__run, args=(iter,count, result,wallet_std,coin_type)).start()
 
 
 
-def  __run(iter:int,count:int,result:int,wallet_std:int)->None:
+def  __run(iter:int,count:int,result:int,wallet_std:int,coin_type:str)->None:
         for i in tqdm(range(iter)):
             #time.sleep(0.1)
-            wallet = Wallet(wallet_std)
+            wallet = Wallet(wallet_std,coin_type)
             count+=1
-            if wallet.balance > 0.0:
+            if float(wallet.balance) > 0.0:
                 result+=1 
                 print(wallet.balance, wallet.dump)
                 wallet.write('result.txt')
