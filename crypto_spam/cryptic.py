@@ -6,7 +6,7 @@ from typing import Optional
 from multiprocessing import Process,cpu_count
 
 from hdwallet import HDWallet
-from hdwallet.symbols import BTC,ETH,DOGE,QTUM,SDC,XDC
+from hdwallet.symbols import BTC,ETH,DOGE,SDC,XDC
 from moneywagon import get_address_balance
 #from moneywagon.services import BlockchainInfo, Toshi
 
@@ -46,7 +46,7 @@ class Mnemonic :
     def __enthropy_check(self,word_size:int )-> dict[str, int]:
         MS = word_size*11 ## mnemoic sentence resulting length
         F_ENT = MS          ## final entropy length (enthropy + checksum)
-        CS = F_ENT//32 #checksum
+        CS = F_ENT//32 #checksum Lenght
         ENT = F_ENT-CS         #initial enthropy length
         return {
                 "MS":MS,
@@ -144,7 +144,7 @@ class Wallet (Mnemonic):
 
     def __init__(self, word_strenght,coin_type='btc',passphrase=None) -> None:
         super().__init__(word_strenght)
-        wallet_dcoins:dict={"btc":BTC,"eth":ETH,"doge":DOGE,"qtum":QTUM,"sdc":SDC,"xdc":XDC}
+        wallet_dcoins:dict={"btc":BTC,"eth":ETH,"doge":DOGE,"sdc":SDC,"xdc":XDC}
 
         self.dump:dict[str ,str]={}
         self.PASSPHRASE: Optional[str]= passphrase
@@ -198,7 +198,8 @@ class Wallet (Mnemonic):
 def start_brute_force(iter:int,wallet_std:int,coin_type:str)-> None:
     count:int=0
     result:int=0
-    print(f"\n  ******BRUTEFORCING FOR {iter} POSSIBLE WALLETS**********  \n")
+    c=cpu_count()
+    print(f"\n  ******BRUTEFORCING FOR {iter } * WITH {c} PROCESSORS. SCANNING TOTAL POSSIBLE {iter * c} FOR {coin_type} WALLETS**********  \n")
     
     for cpu in range(cpu_count()):
         Process(target=__run, args=(iter,count, result,wallet_std,coin_type)).start()

@@ -2,10 +2,11 @@ from cryptic import start_brute_force
 
 
 ITERATION_NUMBER=3000      # Any amount
+
 WALLET_STD=12         # Wallet strenght ! 12 15 18 21 24
 
 
-COIN_TYPE="doge"   #btc  eth  doge 
+COIN_TYPE="btc"   #btc  eth  doge 
 
 
 
