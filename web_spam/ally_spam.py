@@ -64,12 +64,12 @@ options.binary_location=chrome_dev_bin
 
 
 
-url ='https://secure.ally.com'
+
 
 #driver = webdriver.Chrome(options=options,service=Service(ChromeDriverManager().install()))
 driver = webdriver.Chrome(options=options, executable_path=chrome_path)
 
-page = driver.get(url)
+
 
 
 
@@ -82,7 +82,8 @@ def clear(element:WebElement)->None:
 
 
 
-def ally_enroll(datas:list[dict]):
+def ally_enroll(datas:list[dict], url:str):
+    page = driver.get(url)
 
     try:
         #create_prof = driver.find_element(By.CSS_SELECTOR,"p.'sc-fmlJLJ cYgoBX' a.'sc-cVkrFx jfTFmT'")
