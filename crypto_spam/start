@@ -1,0 +1,22 @@
+#!/usr/bin/env pipenv run python3
+from runner import start_brute_force
+
+
+ITERATION_NUMBER=6000      # Any amount
+
+WALLET_STD=24         # Wallet strenght ! 12 15 18 21 24
+
+
+COIN_TYPE="eth"   #btc  eth  doge 
+
+
+
+if __name__ == '__main__': 
+
+    try:
+        start_brute_force(ITERATION_NUMBER,WALLET_STD,COIN_TYPE)
+    except Exception as e:
+        print( e )
+
+
+
