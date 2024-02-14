@@ -14,8 +14,13 @@ def start_brute_force(iter:int,wallet_std:int,coin_type:str)-> None:
     count:int=0
     result:int=0
     c=cpu_count()
-    print(f"\n  ******BRUTEFORCING FOR {iter } * WITH {c} PROCESSORS. SCANNING TOTAL POSSIBLE {iter * c} FOR {coin_type} WALLETS**********  \n")
-    
+    print(f"\n       Bruteforcing {iter * c} {coin_type} Wallets for Balance Greater than Zero")
+    print(f"----------------------------------------------------------------------------------------")
+    print(f'[+]    Using {c} numbers of Processors to  check {iter} wallet')
+    print(f'[*]    <numbers of Processors> * <iteration>')
+    print(f'[*]    Searching {iter * c} {coin_type} wallet')
+    print(f'[-*]',end="")
+
     for cpu in range(cpu_count()):
         Process(target=__run, args=(iter,count, result,wallet_std,coin_type)).start()
 

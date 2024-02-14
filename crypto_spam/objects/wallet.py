@@ -2,7 +2,7 @@
 import json
 import os
 from typing import Optional
-import objects.mnemonics  as a
+from mnemonics import Mnemonic
 from hdwallet import HDWallet
 from hdwallet.symbols import BTC,ETH,DOGE,SDC,XDC
 from moneywagon import get_address_balance
@@ -12,7 +12,11 @@ from moneywagon import get_address_balance
 
 
 
-class Wallet (a.Mnemonic):
+class Wallet (Mnemonic):
+    '''
+        creating and operation on
+        mnemonic hdd wallet
+    '''
 
 
     def __init__(self, word_strenght,coin_type='btc',passphrase=None) -> None:
@@ -35,7 +39,6 @@ class Wallet (a.Mnemonic):
 
     def create_wallet(self)-> None:
         hdwallet:HDWallet = HDWallet(symbol=self.Wallet_coin, use_default_path=True)
-       
         hdwallet.from_mnemonic(mnemonic=self.mnemonic, passphrase=self.PASSPHRASE)
         self.dump=hdwallet.dumps()
         # DIFFERENT USEABLE ADDRESS GENERATED CHECK WALLET DUMP FOR FULL  DETAILS
@@ -49,7 +52,7 @@ class Wallet (a.Mnemonic):
 
     def write(self,file_n:str )->None:
         f_path= os.path.dirname(__file__)+"/" +file_n
-        data = f'MNEMONICS:{self.mnemonic}\n BALANCE:{self.balance}\nINITIAL_ENTHROPY:{self.raw_enthropy}\nFINAL_ENTHROPY:{self.enthropy}\n WALLET DETAILS:{json.dumps(self.dump)} \n\n\n\n'
+        data = f'MNEMONICS:{self.mnemonic}\n BALANCE:{self.balance}\nINITIAL_ENTHROPY:{self.raw_enthropy}\nFINAL_ENTHROPY:{self.enthropy}\n WALLET DETAILS:{json.dumps(self.dump, indent=4)} \n\n\n\n'
         with open(f_path, "a") as f:
             f.write(data)
 
