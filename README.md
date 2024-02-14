@@ -1,12 +1,12 @@
 ### mnemonic wallet Brute forcer using all available cpu core ### 
  
-# This Bruteforcer #  
+## This Bruteforcer ##  
 * Creates crypto currency  wallet *Mnemonic* recovery phrases of specified length *(wallet strength)*.
 * Creates hdd wallet of specifiesd cryto currency type <COIN_TYPE> from this recovery phrases 
 * validates its balance on blockchain and writes the result if balance is greater than a range
 
-# Usage #
-**cmd**
+## Usage ##
+# cmd #
 You must have python3 installed
 `$ pip3 install pipenv`
 `$ pipenv install`
@@ -16,7 +16,7 @@ OR
 when already in project folder 
 `$ ./start`
 
-**file**
+# file #
 the start file has this fields
 
 Fields              |            Description
@@ -26,6 +26,6 @@ Fields              |            Description
  COIN_TYPE          | crypto currency type
 
 
-**result**
+# result #
 The full wallet details along with the recovery phrase and balance is written in ***result.txt***
 if balance > 0 . 
