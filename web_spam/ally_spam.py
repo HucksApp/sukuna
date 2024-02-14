@@ -23,7 +23,7 @@ from reader import write
 
 
 
-data={"last_name":"bauk", "dob":"02/21/1987", "ssn":359882952}
+data={"last_name":"bahk", "dob":"02/21/1982", "ssn":359899952}
 
 
 
