@@ -1,4 +1,4 @@
-### SUKUNA 🦍###
+### SUKUNA ###🦍
 
 ## Description ###
 Mnemonic wallet Bruteforcer using all available cpu core 
