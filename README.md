@@ -39,4 +39,6 @@ if balance > 0 .
 > This hack sofware is a test of the effectiveness of ***mnemonic phrase*** of mnemonic wallets.
 >>**It is not intended to be exploited**
 
+## Authors
+===============================
 Abiodun Aremu ~ HucksApp@gmail.com : 🖋
