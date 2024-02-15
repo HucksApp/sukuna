@@ -1,6 +1,6 @@
 ### SUKUNA🦍
 
-## Description ###
+## Description ##
 * Mnemonic wallet Bruteforcer using all available cpu core
 * < removed 'transaction hijacker and double spend redirect'> 🏗
  
