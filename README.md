@@ -12,11 +12,11 @@
 ## Usage ##
 # cmd #
 You must have python3 installed
-`$ pip3 install pipenv`
-`$ pipenv install`
+```$ pip3 install pipenv
+```$ pipenv install
 OR
-`cd <path/to>/sukuna`
-`./install.sh`
+```cd <path/to>/sukuna`
+```./install.sh`
 when already in project folder 
 `$ ./start`
 
