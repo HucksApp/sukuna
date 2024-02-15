@@ -40,5 +40,4 @@ if balance > 0 .
 >>**It is not intended to be exploited**
 
 ## Authors
-===============================
 Abiodun Aremu ~ HucksApp@gmail.com : 🖋
