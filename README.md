@@ -25,6 +25,8 @@ Fields              |            Description
  WALLET_STD         | Wallet standard or strength l.e number of recovery words in phrase 12, 15, 18, 21, 24  [ -s "value"]
  COIN_TYPE          | crypto currency type  [ -c "value" ]
 
+**example**
+`$ ./start -i 5000 -c btc -s 12`
 
 # result #
 The full wallet details along with the recovery phrase and balance is written in ***result.txt***
