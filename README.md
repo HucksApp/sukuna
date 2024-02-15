@@ -40,7 +40,7 @@ Fields              |            Description
 The full wallet details along with the recovery phrase and balance is written in ***result.txt***
 if balance > 0 . 
 
-> ⚠️ 🚩
+> ⚠️ 🔞 ❗️❗️❗️
 > This hack sofware is a test of the effectiveness of ***mnemonic phrase*** of mnemonic wallets.
 >>**It is not intended to be exploited**
 
