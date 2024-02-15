@@ -1,4 +1,7 @@
-### mnemonic wallet Brute forcer using all available cpu core ### 
+### SUKUNA 🦍###
+
+## Description ###
+Mnemonic wallet Bruteforcer using all available cpu core 
  
 ## This Bruteforcer ##  
 * Creates crypto currency  wallet *Mnemonic* recovery phrases of specified length *(wallet strength)*.
