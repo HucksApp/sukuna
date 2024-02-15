@@ -26,7 +26,7 @@ the start file has this fields
 Fields              |            Description
 --------------------|-------------------------
  ITERATION_NUMBER   | number of wallet to be created and  checked by each processor [ -i "value"]
- WALLET_STD         | Wallet standard or strength l.e number of recovery words in phrase 12, 15, 18, 21, 24  [ -s "value"]
+ WALLET_STD         | Wallet standard or strength l.e number of words in recovery phrase 12, 15, 18, 21, 24  [ -s "value"]
  COIN_TYPE          | crypto currency type  [ -c "value" ]
 
 **example**
