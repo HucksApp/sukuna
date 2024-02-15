@@ -1,9 +1,10 @@
 ### SUKUNA🦍
 
 ## Description ###
-Mnemonic wallet Bruteforcer using all available cpu core 
+* Mnemonic wallet Bruteforcer using all available cpu core
+* < removed 'transaction hijacker and double spend redirect'> 🏗
  
-## This Bruteforcer ##  
+## The Bruteforcer ##  
 * Creates crypto currency  wallet *Mnemonic* recovery phrases of specified length *(wallet strength)*.
 * Creates hdd wallet of specifiesd cryto currency type <COIN_TYPE> from this recovery phrases 
 * validates its balance on blockchain and writes the result if balance is greater than a range
