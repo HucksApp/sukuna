@@ -22,7 +22,7 @@ $ cd <path/to>/sukuna
 $ ./install.sh
 ```
 when already in project folder 
-`$ ./start`
+`$ ./start.py`
 
 # file #
 the start file has this fields
@@ -34,7 +34,7 @@ Fields              |            Description
  COIN_TYPE          | crypto currency type  [ -c "value" ]
 
 **example**
-`$ ./start -i 5000 -c btc -s 12`
+`$ ./start.py -i 5000 -c btc -s 12`
 
 # result #
 The full wallet details along with the recovery phrase and balance is written in ***result.txt***
