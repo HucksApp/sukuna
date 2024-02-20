@@ -12,6 +12,8 @@
 * validates its balance on blockchain and writes the result if balance is greater than a range
 
 ## Usage ##
+***The object classes could be used individually e.g wallet generation***
+
 # cmd #
 You must have python3 installed
 ```
