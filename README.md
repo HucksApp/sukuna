@@ -1,4 +1,4 @@
-### SUKUNA🦍
+# SUKUNA🦍
 ![sukuna](https://github.com/HucksApp/sukuna/assets/58187974/bff5d76a-2b6e-4ee4-9e07-222847e35d52)
 
 ## What Are Mnemonics?
