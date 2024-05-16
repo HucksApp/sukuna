@@ -103,5 +103,12 @@ if balance > 0 .
 > This hack sofware is a test of the collision of BIP39 Fixed ***list of 2048 mnemonic words*** in BIP39 mnemonic wallets.
 >>**It is not intended to be exploited** ❗️❗️❗️
 
-## Authors
-Abiodun Aremu ~ HucksApp@gmail.com : 🖋
+## Bugs 🐛 🪲
+No known bugs at this time. 
+
+## Authors 🖌
+Aremu Mohammad Abiodun ~ [Github](https://github.com/Hucksapp) / [Twitter](https://twitter.com/hucks_jake)  
+
+## License ©
+Public Domain. No copy write protection. 
+
