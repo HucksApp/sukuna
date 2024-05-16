@@ -58,12 +58,13 @@ If you are recovering an existing wallet, the wallet's software will ask you if 
 # cmd #
 You must have python3 installed
 ```
+ $ cd <path/to>/sukuna/crypto_spam
  $ pip3 install pipenv
  $ pipenv install
 ```
 OR
 ```
-$ cd <path/to>/sukuna
+$ cd <path/to>/sukuna/crypto_spam
 $ ./install.sh
 ```
 when already in project folder 
