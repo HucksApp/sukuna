@@ -53,7 +53,7 @@ If you are recovering an existing wallet, the wallet's software will ask you if 
 * validates its balance on blockchain and writes the result if balance is greater than a range
 
 > Blocks 🚫
-> This Bruteforcer do not account for the use of ***passphrase**(added security).
+>> This Bruteforcer do not account for the use of ***passphrase**(added security).
 
 ## Classes 🆑
 1. [Mnemonic](./crypto_spam/objects/mnemonics.py): Generate and validate Mnemonic Recovery phrase used by BIP39 wallets.
