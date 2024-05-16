@@ -11,10 +11,11 @@ It is very difficult to retrieve the details of a cryptocurrency wallet given it
 But mnemonic groups can be used to retrieve details.
 
 There are two types of mnemonics used in cryptocurrencies. These include the mnemonic phrase and mnemonic passphrase.
+
 A mnemonic phrase is also called seed key, mnemonic seed, and recovery seed, to name a few abbreviations.
 Every time a new crypto wallet is generated, users are encouraged to take note of a mnemonic phrase — 12, 18 or 24 words long — on a piece of paper or to store it in any other safe place.This ensures that users are not locked out of crypto wallets.
-
 There are many obvious benefits of using a mnemonic phrase, including making the crypto wallet more secure and making it easier to store.
+
 Mnemonic passphrases are an extra added layer of security, building up on mnemonic phrases, and act as a two-factor authentication for the crypto wallet.
 They're also known as a mnemonic extension or a seed extension.
 
