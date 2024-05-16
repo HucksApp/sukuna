@@ -63,6 +63,12 @@ If you are recovering an existing wallet, the wallet's software will ask you if 
 ***The object classes could be used individually e.g wallet generation***
 
 # cmd #
+Clone repository 📁🖥 ⇠ ⇠ 🌏📁
+```
+$ git clone https://github.com/HucksApp/sukuna/tree/main
+```
+
+
 You must have python3 installed
 ```
  $ cd <path/to>/sukuna/crypto_spam
