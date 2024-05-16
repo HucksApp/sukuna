@@ -22,9 +22,7 @@ They're also known as a mnemonic extension or a seed extension.
 ## BIP39 Wallet 💰
 Bitcoin Improvement Proposals or BIP's are design features, inputs, ideas, information, or changes for essentially how Bitcoin works (including storage i.e. wallets).
 
-One of these features is BIP39 (short for Bitcoin Improvement Proposal: 39). BIP39 is a standard that proposed utilizing a mnemonic phrase -- a group of easy to remember words -- to serve as a back up to recover your wallet and coins in the event your wallet becomes lost or destroyed. This is also known as a seed phrase, recovery phrase, wallet back up, etc.
-
-When starting a new wallet, the instructions will typically advise you to write a 12-24 word phrase down to serve as a recovery method in the event your wallet breaks or stops working.
+One of these features is BIP39 (short for Bitcoin Improvement Proposal: 39). BIP39 is a standard that proposed utilizing a mnemonic phrase -- a group of easy to remember words -- to serve as a back up to recover your wallet and coins in the event your wallet becomes lost or destroyed. 
 
 
 ## BIP39 Word List 🔡
