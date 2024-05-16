@@ -38,7 +38,7 @@ That means if you have the first 4 letters, you know the rest of the word by loo
 BIP39 Wallet Recovery 
 Your coins are not stored on your wallet device. They're stored on the blockchain (i.e. a universal network) and can be accessed by utilizing your seed phrase. Your wallet stores the "access" to those coins, not the coins themselves.
 
-If you are recovering an existing wallet, the wallet's software will ask you if you have an existing phrase or have the option to import one. You'll enter in your existing mnemonic seed phrase, and  your coins are recovered...right?
+If you are recovering an existing wallet, the wallet's software will ask you if you have an existing phrase or have the option to import one. You'll enter in your existing mnemonic seed phrase, and  your coins are recovered.
 
 
 ## Description 📖
