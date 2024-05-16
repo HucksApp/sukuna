@@ -87,7 +87,7 @@ The full wallet details along with the recovery phrase and balance is written in
 if balance > 0 . 
 
 > ⚠️ 🔞  ❌
-> This hack sofware is a test of the collision of BIP39 Fixed ***list of 2048 mnemonic words in BIP39 wordlist*** of mnemonic wallets.
+> This hack sofware is a test of the collision of BIP39 Fixed ***list of 2048 mnemonic words*** in BIP39 mnemonic wallets.
 >>**It is not intended to be exploited** ❗️❗️❗️
 
 ## Authors
