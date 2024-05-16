@@ -52,6 +52,13 @@ If you are recovering an existing wallet, the wallet's software will ask you if 
 * Creates hdd wallet of specifiesd cryto currency type <COIN_TYPE> from this recovery phrases 
 * validates its balance on blockchain and writes the result if balance is greater than a range
 
+> Blocks 🚫
+> This Bruteforcer do not account for the use of ***passphrase**(added security).
+
+## Classes 🆑
+1. [Mnemonic](./crypto_spam/objects/mnemonics.py): Generate and validate Mnemonic Recovery phrase used by BIP39 wallets.
+2. [Wallet](./crypto_spam/objects/wallet.py) : Creates Cryptocurency Hierarchical Deterministic wallet's  from Mnemonic recovery phrases
+
 ## Usage 🛠
 ***The object classes could be used individually e.g wallet generation***
 
