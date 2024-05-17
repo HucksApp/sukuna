@@ -112,7 +112,22 @@ if balance > 0 .
 
 # sample of a Wallet dump. for the btc sample shown, to be written in result, if balance is at specified range.
 ```
-{'cryptocurrency': 'Bitcoin', 'symbol': 'BTC', 'network': 'mainnet', 'strength': 128, 'entropy': '7e64776a7c77417689cb7fe4247fcc5b', 'mnemonic': 'lazy casual surround wedding inject robust cheese husband tomorrow catalog vessel render', 'language': 'english', 'passphrase': None, 'seed': 'ed8be523916625fe4cfebda492f39fb7bb94f6d500ca20a40cb8b734283214b6145d280df880492d8953701cdaec80d236730b2b821f54653d29293faa4e4bd0', 'root_xprivate_key': 'xprv9s21ZrQH143K27Jds87ZFY1Th8VPmriAQhLQQwMxdqTYa85RvcWSxKuRsCJ4csq3NjD2DdYncNaWn2ADyRSD7AGw93saiWsK5DkjBfGYGUL', 'root_xpublic_key': 'xpub661MyMwAqRbcEbP6y9eZcfxCFAKtBKS1mvG1DKmaCAzXSvQaU9phW8DuiToL3o9asw3v5KWz4Pmqr4xbFBNV2maHNuzVJVCrNQt5UPLHeZN', 'xprivate_key': 'xprvA2ozv2XdviZ2ejdjaWHr6wq5QnHwwB6o6cW4WYdz7akGRnvuDYugKvXBNKDKJ6rbjrLVspkWmuwnfRs1PRXArbyXKuTVUFovqTpB2Kawro6', 'xpublic_key': 'xpub6FoMKY4Xm67KsDiCgXprU5moxp8SLdpeTqRfJw3bfvHFJbG3m6DvsiqfDctW6uiSpaammUWbhzyXGkw71pPpeKNnkn3m13W1bpmHBksVcrb', 'uncompressed': 'b87154f61a3dc19230b9b07adb86b64f34592ac486fb5f92ea674fd109819481a1ef940ae86626f9b0a62426129282f5a8be3e1174f50419cc86fc9a7801001b', 'compressed': '03b87154f61a3dc19230b9b07adb86b64f34592ac486fb5f92ea674fd109819481', 'chain_code': 'e5580fdc86af040b99d6f1438209d5588b415e18c2af7212748d541d5e0480ad', 'private_key': '5c1568b7ca8bba1e1364aa8739cdd88425def84790232b6858270ac0a8c1b6a7', 'public_key': '03b87154f61a3dc19230b9b07adb86b64f34592ac486fb5f92ea674fd109819481', 'wif': 'KzJi6kfBmnHWDGsgkMnMm5UrQuVDcjPR6cxMNVmfCxQsySPvd6wS', 'finger_print': 'd5021048', 'semantic': 'p2pkh', 'path': "m/44'/0'/0'/0/0", 'hash': 'd5021048955d4335b02da6945b9c82c8a01967c9', 'addresses': {'p2pkh': '1LRHQF2ZnaqRfno92SSnhBLeou9DyK7fg2', 'p2sh': '3PPBzkXya5rU5QqG9xHTwJr7QKhRmTyQKD', 'p2wpkh': 'bc1q65ppqjy4t4pntvpd5629h8yzezspje7fjdsc8d', 'p2wpkh_in_p2sh': '3MTSFqrgcRV1LSwaRotXfbsM91MACVwkBi', 'p2wsh': 'bc1qf5grd0ppnamwe3m4derrhnyw4tvp95f7uvwd7e0v6eddqvf7umwsxt5tk7', 'p2wsh_in_p2sh': '3MLNzaK1dc3Fzk3bXE8t3L6b5Ufzq2VFgv'}}
+{'cryptocurrency': 'Bitcoin', 'symbol': 'BTC', 'network': 'mainnet', 'strength': 128,
+'entropy': '7e64776a7c77417689cb7fe4247fcc5b', 'mnemonic': 'lazy casual surround wedding inject robust cheese husband tomorrow catalog vessel render',
+'language': 'english', 'passphrase': None, 'seed':
+'ed8be523916625fe4cfebda492f39fb7bb94f6d500ca20a40cb8b734283214b6145d280df880492d8953701cdaec80d236730b2b821f54653d29293faa4e4bd0', 'root_xprivate_key':
+'xprv9s21ZrQH143K27Jds87ZFY1Th8VPmriAQhLQQwMxdqTYa85RvcWSxKuRsCJ4csq3NjD2DdYncNaWn2ADyRSD7AGw93saiWsK5DkjBfGYGUL', 'root_xpublic_key':
+'xpub661MyMwAqRbcEbP6y9eZcfxCFAKtBKS1mvG1DKmaCAzXSvQaU9phW8DuiToL3o9asw3v5KWz4Pmqr4xbFBNV2maHNuzVJVCrNQt5UPLHeZN', 'xprivate_key':
+'xprvA2ozv2XdviZ2ejdjaWHr6wq5QnHwwB6o6cW4WYdz7akGRnvuDYugKvXBNKDKJ6rbjrLVspkWmuwnfRs1PRXArbyXKuTVUFovqTpB2Kawro6', 'xpublic_key':
+'xpub6FoMKY4Xm67KsDiCgXprU5moxp8SLdpeTqRfJw3bfvHFJbG3m6DvsiqfDctW6uiSpaammUWbhzyXGkw71pPpeKNnkn3m13W1bpmHBksVcrb', 'uncompressed':
+'b87154f61a3dc19230b9b07adb86b64f34592ac486fb5f92ea674fd109819481a1ef940ae86626f9b0a62426129282f5a8be3e1174f50419cc86fc9a7801001b', 'compressed':
+'03b87154f61a3dc19230b9b07adb86b64f34592ac486fb5f92ea674fd109819481', 'chain_code': 'e5580fdc86af040b99d6f1438209d5588b415e18c2af7212748d541d5e0480ad',
+'private_key': '5c1568b7ca8bba1e1364aa8739cdd88425def84790232b6858270ac0a8c1b6a7', 'public_key':
+'03b87154f61a3dc19230b9b07adb86b64f34592ac486fb5f92ea674fd109819481', 'wif': 'KzJi6kfBmnHWDGsgkMnMm5UrQuVDcjPR6cxMNVmfCxQsySPvd6wS', 'finger_print':
+'d5021048', 'semantic': 'p2pkh', 'path': "m/44'/0'/0'/0/0", 'hash': 'd5021048955d4335b02da6945b9c82c8a01967c9', 'addresses': {'p2pkh':
+'1LRHQF2ZnaqRfno92SSnhBLeou9DyK7fg2', 'p2sh': '3PPBzkXya5rU5QqG9xHTwJr7QKhRmTyQKD', 'p2wpkh': 'bc1q65ppqjy4t4pntvpd5629h8yzezspje7fjdsc8d', 'p2wpkh_in_p2sh':
+'3MTSFqrgcRV1LSwaRotXfbsM91MACVwkBi', 'p2wsh': 'bc1qf5grd0ppnamwe3m4derrhnyw4tvp95f7uvwd7e0v6eddqvf7umwsxt5tk7', 'p2wsh_in_p2sh':
+'3MLNzaK1dc3Fzk3bXE8t3L6b5Ufzq2VFgv'}}
 ```
 
 > ⚠️ 🔞  ❌
