@@ -110,9 +110,8 @@ sample.
 The full wallet details along with the recovery phrase and balance is written in ***result.txt***
 if balance > 0 .
 
-sample of a Wallet dump. for the btc sample shown, to be written in result, if balance is at specified range.
-```
-{'cryptocurrency': 'Bitcoin', 'symbol': 'BTC', 'network': 'mainnet', 'strength': 128,
+sample of a Wallet dump. for the btc sample shown, to be written in result, if balance is at specified range  ☝️
+```u☝️{'cryptocurrency': 'Bitcoin', 'symbol': 'BTC', 'network': 'mainnet', 'strength': 128,
 'entropy': '7e64776a7c77417689cb7fe4247fcc5b', 'mnemonic': 'lazy casual surround wedding inject robust cheese husband tomorrow catalog vessel render',
 'language': 'english', 'passphrase': None, 'seed':
 'ed8be523916625fe4cfebda492f39fb7bb94f6d500ca20a40cb8b734283214b6145d280df880492d8953701cdaec80d236730b2b821f54653d29293faa4e4bd0', 'root_xprivate_key':
