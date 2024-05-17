@@ -93,7 +93,7 @@ Fields              |            Description
 **example**
 `$ ./start.py -i 5000 -c btc -s 12`
 
-output
+sample.
 ```
 (crypto_spam) ➜  crypto_spam git:(main) ./start -i 30 -c btc -s 12
 
