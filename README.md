@@ -95,7 +95,7 @@ Fields              |            Description
 
 sample.
 ```
-(crypto_spam) ➜  crypto_spam git:(main) ./start -i 30 -c btc -s 12
+(crypto_spam) ➜  crypto_spam git:(main) ./start.py -i 30 -c btc -s 12
 
        Bruteforcing 240 btc Wallets for Balance Greater than Zero
 ----------------------------------------------------------------------------------------
