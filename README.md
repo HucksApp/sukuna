@@ -93,6 +93,19 @@ Fields              |            Description
 **example**
 `$ ./start.py -i 5000 -c btc -s 12`
 
+output
+```
+(crypto_spam) ➜  crypto_spam git:(main) ./start -i 30 -c btc -s 12
+
+       Bruteforcing 240 btc Wallets for Balance Greater than Zero
+----------------------------------------------------------------------------------------
+[+]    Using 8 numbers of Processors to  check 30 wallet
+[*]    <numbers of Processors> * <iteration>
+[*]    Searching 240 btc wallet
+ 83%|████████████████████████████████████████████████████████████            | 25/30 [05:28<00:56, 11.29s/it]
+```
+
+
 # result 📄
 The full wallet details along with the recovery phrase and balance is written in ***result.txt***
 if balance > 0 . 
