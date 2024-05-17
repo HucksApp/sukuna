@@ -2,7 +2,7 @@
 import json
 import os
 from typing import Optional
-from mnemonics import Mnemonic
+from objects.mnemonics import Mnemonic
 from hdwallet import HDWallet
 from hdwallet.symbols import BTC,ETH,DOGE,SDC,XDC
 from moneywagon import get_address_balance
