@@ -111,22 +111,45 @@ The full wallet details along with the recovery phrase and balance is written in
 if balance > 0 .
 
 sample of a Wallet dump. for the btc sample shown, to be written in result, if balance is at specified range  ☝️
-```u☝️{'cryptocurrency': 'Bitcoin', 'symbol': 'BTC', 'network': 'mainnet', 'strength': 128,
-'entropy': '7e64776a7c77417689cb7fe4247fcc5b', 'mnemonic': 'lazy casual surround wedding inject robust cheese husband tomorrow catalog vessel render',
-'language': 'english', 'passphrase': None, 'seed':
-'ed8be523916625fe4cfebda492f39fb7bb94f6d500ca20a40cb8b734283214b6145d280df880492d8953701cdaec80d236730b2b821f54653d29293faa4e4bd0', 'root_xprivate_key':
-'xprv9s21ZrQH143K27Jds87ZFY1Th8VPmriAQhLQQwMxdqTYa85RvcWSxKuRsCJ4csq3NjD2DdYncNaWn2ADyRSD7AGw93saiWsK5DkjBfGYGUL', 'root_xpublic_key':
-'xpub661MyMwAqRbcEbP6y9eZcfxCFAKtBKS1mvG1DKmaCAzXSvQaU9phW8DuiToL3o9asw3v5KWz4Pmqr4xbFBNV2maHNuzVJVCrNQt5UPLHeZN', 'xprivate_key':
-'xprvA2ozv2XdviZ2ejdjaWHr6wq5QnHwwB6o6cW4WYdz7akGRnvuDYugKvXBNKDKJ6rbjrLVspkWmuwnfRs1PRXArbyXKuTVUFovqTpB2Kawro6', 'xpublic_key':
-'xpub6FoMKY4Xm67KsDiCgXprU5moxp8SLdpeTqRfJw3bfvHFJbG3m6DvsiqfDctW6uiSpaammUWbhzyXGkw71pPpeKNnkn3m13W1bpmHBksVcrb', 'uncompressed':
-'b87154f61a3dc19230b9b07adb86b64f34592ac486fb5f92ea674fd109819481a1ef940ae86626f9b0a62426129282f5a8be3e1174f50419cc86fc9a7801001b', 'compressed':
-'03b87154f61a3dc19230b9b07adb86b64f34592ac486fb5f92ea674fd109819481', 'chain_code': 'e5580fdc86af040b99d6f1438209d5588b415e18c2af7212748d541d5e0480ad',
-'private_key': '5c1568b7ca8bba1e1364aa8739cdd88425def84790232b6858270ac0a8c1b6a7', 'public_key':
-'03b87154f61a3dc19230b9b07adb86b64f34592ac486fb5f92ea674fd109819481', 'wif': 'KzJi6kfBmnHWDGsgkMnMm5UrQuVDcjPR6cxMNVmfCxQsySPvd6wS', 'finger_print':
-'d5021048', 'semantic': 'p2pkh', 'path': "m/44'/0'/0'/0/0", 'hash': 'd5021048955d4335b02da6945b9c82c8a01967c9', 'addresses': {'p2pkh':
-'1LRHQF2ZnaqRfno92SSnhBLeou9DyK7fg2', 'p2sh': '3PPBzkXya5rU5QqG9xHTwJr7QKhRmTyQKD', 'p2wpkh': 'bc1q65ppqjy4t4pntvpd5629h8yzezspje7fjdsc8d', 'p2wpkh_in_p2sh':
-'3MTSFqrgcRV1LSwaRotXfbsM91MACVwkBi', 'p2wsh': 'bc1qf5grd0ppnamwe3m4derrhnyw4tvp95f7uvwd7e0v6eddqvf7umwsxt5tk7', 'p2wsh_in_p2sh':
-'3MLNzaK1dc3Fzk3bXE8t3L6b5Ufzq2VFgv'}}
+```
+MNEMONICS:slim evolve awkward circle gallery system hotel diamond fox machine wear suffer
+ BALANCE:0.0
+INITIAL_ENTHROPY:11001011110010011100010001000011000101001001010111110001101110011001101110001001111010010101110001010000101100111110000111101100
+FINAL_ENTHROPY:110010111100100111000100010000110001010010010101111100011011100110011011100010011110100101011100010100001011001111100001111011000101
+ WALLET DETAILS:{
+    "cryptocurrency": "Bitcoin",
+    "symbol": "BTC",
+    "network": "mainnet",
+    "strength": 128,
+    "entropy": "cbc9c4431495f1b99b89e95c50b3e1ec",
+    "mnemonic": "slim evolve awkward circle gallery system hotel diamond fox machine wear suffer",
+    "language": "english",
+    "passphrase": null,
+    "seed": "fff1c4d66ba9e7dc6ecf65e41baf615117ea17ce4c75cad52742167427dc59f3d4c64c253a8569b43c46b3784e52c00d2449500b70b113f1d148eed852708713",
+    "root_xprivate_key": "xprv9s21ZrQH143K48AYtVfxT3Ej42tUFpcCxwsv1z8LR9SncnnDLN5qpXdbkbmfPqUHRoAJ8gfb7PKWTxGY5bB3tAiJkp74HW124ZTkbpUX9Cf",
+    "root_xpublic_key": "xpub661MyMwAqRbcGcF1zXCxpBBTc4ixfHL4LAoWpNXwyUymVb7MsuQ6NKx5bsZ7NXaotiE3jcHuXWu54LNEBjnMzVGnWZ9csnBQvU4prdqoBvF",
+    "xprivate_key": "xprvA31WNGtooLWcGEfVsnmhD1jYvRarzpNLBESwDkCDwhYMAb5YjCDW6NBaTAuuY3yppHpa39gXrNgmJMnB8AiAKfMf19GJHy4BgZ4SzPtp79p",
+    "xpublic_key": "xpub6FzrmnRhdi4uUijxypJha9gHUTRMQH6BYTNY28bqW35L3PQhGjXkeAW4JRPxsg9ZjsYoVWyghUULMwHCM9xbykTRqBfT8YuggTUssWbthSf",
+    "uncompressed": "132e2b6e6b8f3a515c729ad6503a508d99cdb69af5a1b8a33762de2ded1d4400b60209b96c019da4461f228a555aa02516503d7d7dd2894b858d50e0a7480190",
+    "compressed": "02132e2b6e6b8f3a515c729ad6503a508d99cdb69af5a1b8a33762de2ded1d4400",
+    "chain_code": "15dd76b7287dc5d6ded72894d2656c895f6201a6750e29a3d61fd9bb38119340",
+    "private_key": "5b2dc5afc8e13371e5868ee74abd1b6043ab7445d3d3a6608cf9829a0351f719",
+    "public_key": "02132e2b6e6b8f3a515c729ad6503a508d99cdb69af5a1b8a33762de2ded1d4400",
+    "wif": "KzGx5uEM2h8czfVJeGaaq2vNbNNMpysRZJuejyt4ZtQNWewCe9YP",
+    "finger_print": "474dcb27",
+    "semantic": "p2pkh",
+    "path": "m/44'/0'/0'/0/0",
+    "hash": "474dcb275a6f2f2fb3cfaac67cf9ac0972aa89c6",
+    "addresses": {
+        "p2pkh": "17W2Ap6GHUtbT69JvYaFoh8WpuLHJUChC8",
+        "p2sh": "37w2z55gUCL2JwLwjnnrP438fNwY9sB5ch",
+        "p2wpkh": "bc1qgaxukf66duhjlv704tr8e7dvp9e24zwxnj7mah",
+        "p2wpkh_in_p2sh": "3LyPCHLFPgRayKGqmgDStkVhKAXMwZtWoU",
+        "p2wsh": "bc1q4evynl0tnm9ad0r68wvz8w4mtazh7vrdcv6yflappkexsvcek30q25rn03",
+        "p2wsh_in_p2sh": "3BLrXFtThuot7b1Q1NMbHsFHjc2Z8o5b1i"
+    }
+} 
+
 ```
 
 > ⚠️ 🔞  ❌
