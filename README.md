@@ -78,7 +78,7 @@ OR
 $ cd <path/to>/sukuna/crypto_spam
 $ ./install.sh
 ```
-## start Bruteforcer
+## Start Bruteforcer
 when already in project folder 
 `$ ./start.py`
 
