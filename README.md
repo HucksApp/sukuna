@@ -161,7 +161,7 @@ sample of a Wallet dump. for the btc sample shown, to be written in result, if b
 No known bugs at this time. 
 
 ## Authors 🖌
-Aremu Mohammad Abiodun ~ [Github](https://github.com/Hucksapp) / [Twitter](https://twitter.com/hucks_jake)  
+Aremu Mohammad Abiodun ~ [Github](https://github.com/Hucksapp) : [Twitter](https://twitter.com/hucks_jake)  
 
 ## License ©
 Public Domain. No copy write protection. 
